@@ -1,53 +1,69 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\RJ\\Documents\\dotnet\\College Appointment System\\",
+  "WorkspaceRootPath": "D:\\dotnet\\College-Appointment-System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{84F44823-C27A-4C00-8C3C-7AAFF2F38CA9}|College Appointment System\\College Appointment System.csproj|c:\\users\\rj\\documents\\dotnet\\college appointment system\\college appointment system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84F44823-C27A-4C00-8C3C-7AAFF2F38CA9}|College Appointment System\\College Appointment System.csproj|solutionrelative:college appointment system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84F44823-C27A-4C00-8C3C-7AAFF2F38CA9}|College Appointment System\\College Appointment System.csproj|c:\\users\\rj\\documents\\dotnet\\college appointment system\\college appointment system\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84F44823-C27A-4C00-8C3C-7AAFF2F38CA9}|College Appointment System\\College Appointment System.csproj|solutionrelative:college appointment system\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84F44823-C27A-4C00-8C3C-7AAFF2F38CA9}|College Appointment System\\College Appointment System.csproj|c:\\users\\rj\\documents\\dotnet\\college appointment system\\college appointment system\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{84F44823-C27A-4C00-8C3C-7AAFF2F38CA9}|College Appointment System\\College Appointment System.csproj|solutionrelative:college appointment system\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84F44823-C27A-4C00-8C3C-7AAFF2F38CA9}|College Appointment System\\College Appointment System.csproj|c:\\users\\rj\\documents\\dotnet\\college appointment system\\college appointment system\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84F44823-C27A-4C00-8C3C-7AAFF2F38CA9}|College Appointment System\\College Appointment System.csproj|solutionrelative:college appointment system\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84F44823-C27A-4C00-8C3C-7AAFF2F38CA9}|College Appointment System\\College Appointment System.csproj|c:\\users\\rj\\documents\\dotnet\\college appointment system\\college appointment system\\models\\adduserrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84F44823-C27A-4C00-8C3C-7AAFF2F38CA9}|College Appointment System\\College Appointment System.csproj|solutionrelative:college appointment system\\models\\adduserrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84F44823-C27A-4C00-8C3C-7AAFF2F38CA9}|College Appointment System\\College Appointment System.csproj|c:\\users\\rj\\documents\\dotnet\\college appointment system\\college appointment system\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84F44823-C27A-4C00-8C3C-7AAFF2F38CA9}|College Appointment System\\College Appointment System.csproj|solutionrelative:college appointment system\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84F44823-C27A-4C00-8C3C-7AAFF2F38CA9}|College Appointment System\\College Appointment System.csproj|c:\\users\\rj\\documents\\dotnet\\college appointment system\\college appointment system\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84F44823-C27A-4C00-8C3C-7AAFF2F38CA9}|College Appointment System\\College Appointment System.csproj|solutionrelative:college appointment system\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84F44823-C27A-4C00-8C3C-7AAFF2F38CA9}|College Appointment System\\College Appointment System.csproj|c:\\users\\rj\\documents\\dotnet\\college appointment system\\college appointment system\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84F44823-C27A-4C00-8C3C-7AAFF2F38CA9}|College Appointment System\\College Appointment System.csproj|solutionrelative:college appointment system\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84F44823-C27A-4C00-8C3C-7AAFF2F38CA9}|College Appointment System\\College Appointment System.csproj|c:\\users\\rj\\documents\\dotnet\\college appointment system\\college appointment system\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{84F44823-C27A-4C00-8C3C-7AAFF2F38CA9}|College Appointment System\\College Appointment System.csproj|d:\\dotnet\\college-appointment-system\\college appointment system\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84F44823-C27A-4C00-8C3C-7AAFF2F38CA9}|College Appointment System\\College Appointment System.csproj|solutionrelative:college appointment system\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84F44823-C27A-4C00-8C3C-7AAFF2F38CA9}|College Appointment System\\College Appointment System.csproj|c:\\users\\rj\\documents\\dotnet\\college appointment system\\college appointment system\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{84F44823-C27A-4C00-8C3C-7AAFF2F38CA9}|College Appointment System\\College Appointment System.csproj|d:\\dotnet\\college-appointment-system\\college appointment system\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84F44823-C27A-4C00-8C3C-7AAFF2F38CA9}|College Appointment System\\College Appointment System.csproj|solutionrelative:college appointment system\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84F44823-C27A-4C00-8C3C-7AAFF2F38CA9}|College Appointment System\\College Appointment System.csproj|d:\\dotnet\\college-appointment-system\\college appointment system\\helpers\\idgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84F44823-C27A-4C00-8C3C-7AAFF2F38CA9}|College Appointment System\\College Appointment System.csproj|solutionrelative:college appointment system\\helpers\\idgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84F44823-C27A-4C00-8C3C-7AAFF2F38CA9}|College Appointment System\\College Appointment System.csproj|d:\\dotnet\\college-appointment-system\\college appointment system\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84F44823-C27A-4C00-8C3C-7AAFF2F38CA9}|College Appointment System\\College Appointment System.csproj|solutionrelative:college appointment system\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84F44823-C27A-4C00-8C3C-7AAFF2F38CA9}|College Appointment System\\College Appointment System.csproj|d:\\dotnet\\college-appointment-system\\college appointment system\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84F44823-C27A-4C00-8C3C-7AAFF2F38CA9}|College Appointment System\\College Appointment System.csproj|solutionrelative:college appointment system\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84F44823-C27A-4C00-8C3C-7AAFF2F38CA9}|College Appointment System\\College Appointment System.csproj|d:\\dotnet\\college-appointment-system\\college appointment system\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84F44823-C27A-4C00-8C3C-7AAFF2F38CA9}|College Appointment System\\College Appointment System.csproj|solutionrelative:college appointment system\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84F44823-C27A-4C00-8C3C-7AAFF2F38CA9}|College Appointment System\\College Appointment System.csproj|d:\\dotnet\\college-appointment-system\\college appointment system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84F44823-C27A-4C00-8C3C-7AAFF2F38CA9}|College Appointment System\\College Appointment System.csproj|solutionrelative:college appointment system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84F44823-C27A-4C00-8C3C-7AAFF2F38CA9}|College Appointment System\\College Appointment System.csproj|d:\\dotnet\\college-appointment-system\\college appointment system\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{84F44823-C27A-4C00-8C3C-7AAFF2F38CA9}|College Appointment System\\College Appointment System.csproj|solutionrelative:college appointment system\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84F44823-C27A-4C00-8C3C-7AAFF2F38CA9}|College Appointment System\\College Appointment System.csproj|d:\\dotnet\\college-appointment-system\\college appointment system\\models\\adduserrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84F44823-C27A-4C00-8C3C-7AAFF2F38CA9}|College Appointment System\\College Appointment System.csproj|solutionrelative:college appointment system\\models\\adduserrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84F44823-C27A-4C00-8C3C-7AAFF2F38CA9}|College Appointment System\\College Appointment System.csproj|d:\\dotnet\\college-appointment-system\\college appointment system\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{84F44823-C27A-4C00-8C3C-7AAFF2F38CA9}|College Appointment System\\College Appointment System.csproj|solutionrelative:college appointment system\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84F44823-C27A-4C00-8C3C-7AAFF2F38CA9}|College Appointment System\\College Appointment System.csproj|d:\\dotnet\\college-appointment-system\\college appointment system\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84F44823-C27A-4C00-8C3C-7AAFF2F38CA9}|College Appointment System\\College Appointment System.csproj|solutionrelative:college appointment system\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84F44823-C27A-4C00-8C3C-7AAFF2F38CA9}|College Appointment System\\College Appointment System.csproj|d:\\dotnet\\college-appointment-system\\college appointment system\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84F44823-C27A-4C00-8C3C-7AAFF2F38CA9}|College Appointment System\\College Appointment System.csproj|solutionrelative:college appointment system\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84F44823-C27A-4C00-8C3C-7AAFF2F38CA9}|College Appointment System\\College Appointment System.csproj|d:\\dotnet\\college-appointment-system\\college appointment system\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84F44823-C27A-4C00-8C3C-7AAFF2F38CA9}|College Appointment System\\College Appointment System.csproj|solutionrelative:college appointment system\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84F44823-C27A-4C00-8C3C-7AAFF2F38CA9}|College Appointment System\\College Appointment System.csproj|d:\\dotnet\\college-appointment-system\\college appointment system\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84F44823-C27A-4C00-8C3C-7AAFF2F38CA9}|College Appointment System\\College Appointment System.csproj|solutionrelative:college appointment system\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84F44823-C27A-4C00-8C3C-7AAFF2F38CA9}|College Appointment System\\College Appointment System.csproj|c:\\users\\rj\\documents\\dotnet\\college appointment system\\college appointment system\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{84F44823-C27A-4C00-8C3C-7AAFF2F38CA9}|College Appointment System\\College Appointment System.csproj|d:\\dotnet\\college-appointment-system\\college appointment system\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84F44823-C27A-4C00-8C3C-7AAFF2F38CA9}|College Appointment System\\College Appointment System.csproj|solutionrelative:college appointment system\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84F44823-C27A-4C00-8C3C-7AAFF2F38CA9}|College Appointment System\\College Appointment System.csproj|c:\\users\\rj\\documents\\dotnet\\college appointment system\\college appointment system\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{84F44823-C27A-4C00-8C3C-7AAFF2F38CA9}|College Appointment System\\College Appointment System.csproj|d:\\dotnet\\college-appointment-system\\college appointment system\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84F44823-C27A-4C00-8C3C-7AAFF2F38CA9}|College Appointment System\\College Appointment System.csproj|solutionrelative:college appointment system\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -58,8 +74,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 10,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -70,11 +90,63 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IdGenerator.cs",
+              "DocumentMoniker": "D:\\dotnet\\College-Appointment-System\\College Appointment System\\Helpers\\IdGenerator.cs",
+              "RelativeDocumentMoniker": "College Appointment System\\Helpers\\IdGenerator.cs",
+              "ToolTip": "D:\\dotnet\\College-Appointment-System\\College Appointment System\\Helpers\\IdGenerator.cs",
+              "RelativeToolTip": "College Appointment System\\Helpers\\IdGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T11:03:07.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "D:\\dotnet\\College-Appointment-System\\College Appointment System\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "College Appointment System\\Controllers\\StudentController.cs",
+              "ToolTip": "D:\\dotnet\\College-Appointment-System\\College Appointment System\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "College Appointment System\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T10:14:38.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\dotnet\\College-Appointment-System\\College Appointment System\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "College Appointment System\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\dotnet\\College-Appointment-System\\College Appointment System\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "College Appointment System\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T10:14:05.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": ".gitignore",
+              "DocumentMoniker": "D:\\dotnet\\College-Appointment-System\\College Appointment System\\.gitignore",
+              "RelativeDocumentMoniker": "College Appointment System\\.gitignore",
+              "ToolTip": "D:\\dotnet\\College-Appointment-System\\College Appointment System\\.gitignore",
+              "RelativeToolTip": "College Appointment System\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF8SURBVDhPjVNLTgJBEG1lwpoFB3GNK9fieA48hD8iwT/ihwgSDAIHgAGXXsEV18CNzL/LquqZdsYM6kteXqcy3fWqpmpNRBgOhyABBEgpAFVKPIMUcYzUyOU\u002BXM/b2qtU3vkSfRjjZTCAMAw1A2LwzdFoBPP5HNqdzuL27n4juibWI\u002BUshBA1DIkhEx9iEorFotgslQqGYbxxAGFEqt1MxmPWJLbLZdZ\u002Bv89q5PMFPiTR6z2zdaxR0fXA0XTBcVywkb4fwHXjRteecIDNQ7UmExVYAdPcxYaqclN46na5WenMKjtlVnTYwcXlVYaDqImW9beD5N/TeGy32QHXm6hZ03ZgiSQHp2fnWQ4oBmJqWSqwAqZpZjt4aLXAD4J0VqyZsmoubfB8H2r1eoaD6NXZ9HcHO\u002BSA3f4AjifXl8rItOETM8ckB9WTWpYD9RdeZ1PWVWAHWXPQaDb59f/w8LiqHeh1pvGkCaP6qB8yXusoxmuNZ7XmII4O9vGuEF86osuDYRkpYQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-01-06T08:14:20.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "AddUserRole.cs",
-              "DocumentMoniker": "C:\\Users\\RJ\\Documents\\dotnet\\College Appointment System\\College Appointment System\\Models\\AddUserRole.cs",
+              "DocumentMoniker": "D:\\dotnet\\College-Appointment-System\\College Appointment System\\Models\\AddUserRole.cs",
               "RelativeDocumentMoniker": "College Appointment System\\Models\\AddUserRole.cs",
-              "ToolTip": "C:\\Users\\RJ\\Documents\\dotnet\\College Appointment System\\College Appointment System\\Models\\AddUserRole.cs",
+              "ToolTip": "D:\\dotnet\\College-Appointment-System\\College Appointment System\\Models\\AddUserRole.cs",
               "RelativeToolTip": "College Appointment System\\Models\\AddUserRole.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -84,47 +156,48 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\RJ\\Documents\\dotnet\\College Appointment System\\College Appointment System\\Services\\AuthService.cs",
+              "DocumentMoniker": "D:\\dotnet\\College-Appointment-System\\College Appointment System\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "College Appointment System\\Services\\AuthService.cs",
-              "ToolTip": "C:\\Users\\RJ\\Documents\\dotnet\\College Appointment System\\College Appointment System\\Services\\AuthService.cs",
+              "ToolTip": "D:\\dotnet\\College-Appointment-System\\College Appointment System\\Services\\AuthService.cs",
               "RelativeToolTip": "College Appointment System\\Services\\AuthService.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAQwGAAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAQwCcAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-05T10:33:40.131Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\RJ\\Documents\\dotnet\\College Appointment System\\College Appointment System\\Program.cs",
+              "DocumentMoniker": "D:\\dotnet\\College-Appointment-System\\College Appointment System\\Program.cs",
               "RelativeDocumentMoniker": "College Appointment System\\Program.cs",
-              "ToolTip": "C:\\Users\\RJ\\Documents\\dotnet\\College Appointment System\\College Appointment System\\Program.cs",
+              "ToolTip": "D:\\dotnet\\College-Appointment-System\\College Appointment System\\Program.cs",
               "RelativeToolTip": "College Appointment System\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABpAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-05T10:20:16.25Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "StudentService.cs",
-              "DocumentMoniker": "C:\\Users\\RJ\\Documents\\dotnet\\College Appointment System\\College Appointment System\\Services\\StudentService.cs",
+              "DocumentMoniker": "D:\\dotnet\\College-Appointment-System\\College Appointment System\\Services\\StudentService.cs",
               "RelativeDocumentMoniker": "College Appointment System\\Services\\StudentService.cs",
-              "ToolTip": "C:\\Users\\RJ\\Documents\\dotnet\\College Appointment System\\College Appointment System\\Services\\StudentService.cs",
+              "ToolTip": "D:\\dotnet\\College-Appointment-System\\College Appointment System\\Services\\StudentService.cs",
               "RelativeToolTip": "College Appointment System\\Services\\StudentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAnwBYAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T10:01:56.139Z"
+              "WhenOpened": "2025-01-05T10:01:56.139Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\RJ\\Documents\\dotnet\\College Appointment System\\College Appointment System\\appsettings.json",
+              "DocumentMoniker": "D:\\dotnet\\College-Appointment-System\\College Appointment System\\appsettings.json",
               "RelativeDocumentMoniker": "College Appointment System\\appsettings.json",
-              "ToolTip": "C:\\Users\\RJ\\Documents\\dotnet\\College Appointment System\\College Appointment System\\appsettings.json",
+              "ToolTip": "D:\\dotnet\\College-Appointment-System\\College Appointment System\\appsettings.json",
               "RelativeToolTip": "College Appointment System\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -132,11 +205,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\RJ\\Documents\\dotnet\\College Appointment System\\College Appointment System\\Context\\ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\dotnet\\College-Appointment-System\\College Appointment System\\Context\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "College Appointment System\\Context\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\RJ\\Documents\\dotnet\\College Appointment System\\College Appointment System\\Context\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\dotnet\\College-Appointment-System\\College Appointment System\\Context\\ApplicationDbContext.cs",
               "RelativeToolTip": "College Appointment System\\Context\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -144,11 +217,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "LoginRequest.cs",
-              "DocumentMoniker": "C:\\Users\\RJ\\Documents\\dotnet\\College Appointment System\\College Appointment System\\Models\\LoginRequest.cs",
+              "DocumentMoniker": "D:\\dotnet\\College-Appointment-System\\College Appointment System\\Models\\LoginRequest.cs",
               "RelativeDocumentMoniker": "College Appointment System\\Models\\LoginRequest.cs",
-              "ToolTip": "C:\\Users\\RJ\\Documents\\dotnet\\College Appointment System\\College Appointment System\\Models\\LoginRequest.cs",
+              "ToolTip": "D:\\dotnet\\College-Appointment-System\\College Appointment System\\Models\\LoginRequest.cs",
               "RelativeToolTip": "College Appointment System\\Models\\LoginRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -156,23 +229,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "IAuthService.cs",
-              "DocumentMoniker": "C:\\Users\\RJ\\Documents\\dotnet\\College Appointment System\\College Appointment System\\Interfaces\\IAuthService.cs",
+              "DocumentMoniker": "D:\\dotnet\\College-Appointment-System\\College Appointment System\\Interfaces\\IAuthService.cs",
               "RelativeDocumentMoniker": "College Appointment System\\Interfaces\\IAuthService.cs",
-              "ToolTip": "C:\\Users\\RJ\\Documents\\dotnet\\College Appointment System\\College Appointment System\\Interfaces\\IAuthService.cs",
+              "ToolTip": "D:\\dotnet\\College-Appointment-System\\College Appointment System\\Interfaces\\IAuthService.cs",
               "RelativeToolTip": "College Appointment System\\Interfaces\\IAuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T09:22:38.02Z"
+              "WhenOpened": "2025-01-05T09:22:38.02Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\RJ\\Documents\\dotnet\\College Appointment System\\College Appointment System\\Models\\Student.cs",
+              "DocumentMoniker": "D:\\dotnet\\College-Appointment-System\\College Appointment System\\Models\\Student.cs",
               "RelativeDocumentMoniker": "College Appointment System\\Models\\Student.cs",
-              "ToolTip": "C:\\Users\\RJ\\Documents\\dotnet\\College Appointment System\\College Appointment System\\Models\\Student.cs",
+              "ToolTip": "D:\\dotnet\\College-Appointment-System\\College Appointment System\\Models\\Student.cs",
               "RelativeToolTip": "College Appointment System\\Models\\Student.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -180,11 +254,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "UserRole.cs",
-              "DocumentMoniker": "C:\\Users\\RJ\\Documents\\dotnet\\College Appointment System\\College Appointment System\\Models\\UserRole.cs",
+              "DocumentMoniker": "D:\\dotnet\\College-Appointment-System\\College Appointment System\\Models\\UserRole.cs",
               "RelativeDocumentMoniker": "College Appointment System\\Models\\UserRole.cs",
-              "ToolTip": "C:\\Users\\RJ\\Documents\\dotnet\\College Appointment System\\College Appointment System\\Models\\UserRole.cs",
+              "ToolTip": "D:\\dotnet\\College-Appointment-System\\College Appointment System\\Models\\UserRole.cs",
               "RelativeToolTip": "College Appointment System\\Models\\UserRole.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -192,11 +266,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "Role.cs",
-              "DocumentMoniker": "C:\\Users\\RJ\\Documents\\dotnet\\College Appointment System\\College Appointment System\\Models\\Role.cs",
+              "DocumentMoniker": "D:\\dotnet\\College-Appointment-System\\College Appointment System\\Models\\Role.cs",
               "RelativeDocumentMoniker": "College Appointment System\\Models\\Role.cs",
-              "ToolTip": "C:\\Users\\RJ\\Documents\\dotnet\\College Appointment System\\College Appointment System\\Models\\Role.cs",
+              "ToolTip": "D:\\dotnet\\College-Appointment-System\\College Appointment System\\Models\\Role.cs",
               "RelativeToolTip": "College Appointment System\\Models\\Role.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -204,11 +278,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\RJ\\Documents\\dotnet\\College Appointment System\\College Appointment System\\Models\\User.cs",
+              "DocumentMoniker": "D:\\dotnet\\College-Appointment-System\\College Appointment System\\Models\\User.cs",
               "RelativeDocumentMoniker": "College Appointment System\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\RJ\\Documents\\dotnet\\College Appointment System\\College Appointment System\\Models\\User.cs",
+              "ToolTip": "D:\\dotnet\\College-Appointment-System\\College Appointment System\\Models\\User.cs",
               "RelativeToolTip": "College Appointment System\\Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
