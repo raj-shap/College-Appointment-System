@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("College Appointment System")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6d2fe833b0cfbb388511030dba343fdecab2ae4c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1823a1034bfaf2b1093aecab14ccd44c62ab0172")]
 [assembly: System.Reflection.AssemblyProductAttribute("College Appointment System")]
 [assembly: System.Reflection.AssemblyTitleAttribute("College Appointment System")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
