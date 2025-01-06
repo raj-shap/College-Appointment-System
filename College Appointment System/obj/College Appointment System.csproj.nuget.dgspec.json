@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\RJ\\Documents\\dotnet\\College Appointment System\\College Appointment System\\College Appointment System.csproj": {}
+    "D:\\dotnet\\College-Appointment-System\\College Appointment System\\College Appointment System.csproj": {}
   },
   "projects": {
-    "C:\\Users\\RJ\\Documents\\dotnet\\College Appointment System\\College Appointment System\\College Appointment System.csproj": {
+    "D:\\dotnet\\College-Appointment-System\\College Appointment System\\College Appointment System.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\RJ\\Documents\\dotnet\\College Appointment System\\College Appointment System\\College Appointment System.csproj",
+        "projectUniqueName": "D:\\dotnet\\College-Appointment-System\\College Appointment System\\College Appointment System.csproj",
         "projectName": "College Appointment System",
-        "projectPath": "C:\\Users\\RJ\\Documents\\dotnet\\College Appointment System\\College Appointment System\\College Appointment System.csproj",
-        "packagesPath": "C:\\Users\\RJ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\RJ\\Documents\\dotnet\\College Appointment System\\College Appointment System\\obj\\",
+        "projectPath": "D:\\dotnet\\College-Appointment-System\\College Appointment System\\College Appointment System.csproj",
+        "packagesPath": "C:\\Users\\GreyCell\\.nuget\\packages\\",
+        "outputPath": "D:\\dotnet\\College-Appointment-System\\College Appointment System\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\RJ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\GreyCell\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

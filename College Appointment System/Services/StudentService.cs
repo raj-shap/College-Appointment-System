@@ -14,15 +14,38 @@ namespace College_Appointment_System.Services
         }
         public Student AddStudent(Student student)
         {
-            var std = _context.Students.Add(student);
-            _context.SaveChanges();
-            return std.Entity;
+            if (student == null)
+            {
+                throw new Exception("Details is NULL");
+            }
+            try
+            {
+                student.Id = Guid.NewGuid();
+                var std = _context.Students.Add(student);
+                _context.SaveChanges();
+                return std.Entity;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception($"{ex.Message} : unexpected error occures while assign role to user.");
+            }
         }
 
         public List<Student> GetAllStudents()
         {
             var student = _context.Students.ToList();
-            return student;
+            if (student == null)
+            {
+                throw new Exception("Students Not Found");
+            }
+            try
+            {
+                return student;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception($"{ex.Message} : unexpected error occures while assign role to user.");
+            }
         }
     }
 }
