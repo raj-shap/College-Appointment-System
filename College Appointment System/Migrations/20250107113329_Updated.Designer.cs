@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace College_Appointment_System.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250106184304_appointment availability professor added")]
-    partial class appointmentavailabilityprofessoradded
+    [Migration("20250107113329_Updated")]
+    partial class Updated
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -31,17 +31,11 @@ namespace College_Appointment_System.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<DateTime>("EndTime")
-                        .HasColumnType("datetime2");
-
-                    b.Property<bool>("IsBooked")
-                        .HasColumnType("bit");
+                    b.Property<Guid>("AvailabilityId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<Guid>("ProfessorId")
                         .HasColumnType("uniqueidentifier");
-
-                    b.Property<DateTime>("StartTime")
-                        .HasColumnType("datetime2");
 
                     b.Property<Guid>("StudentId")
                         .HasColumnType("uniqueidentifier");
@@ -59,6 +53,9 @@ namespace College_Appointment_System.Migrations
 
                     b.Property<DateTime>("EndDate")
                         .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsBooked")
+                        .HasColumnType("bit");
 
                     b.Property<Guid>("ProfessorId")
                         .HasColumnType("uniqueidentifier");
@@ -82,6 +79,10 @@ namespace College_Appointment_System.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Password")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -124,6 +125,10 @@ namespace College_Appointment_System.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Password")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 

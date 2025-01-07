@@ -28,17 +28,11 @@ namespace College_Appointment_System.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<DateTime>("EndTime")
-                        .HasColumnType("datetime2");
-
-                    b.Property<bool>("IsBooked")
-                        .HasColumnType("bit");
+                    b.Property<Guid>("AvailabilityId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<Guid>("ProfessorId")
                         .HasColumnType("uniqueidentifier");
-
-                    b.Property<DateTime>("StartTime")
-                        .HasColumnType("datetime2");
 
                     b.Property<Guid>("StudentId")
                         .HasColumnType("uniqueidentifier");
@@ -56,6 +50,9 @@ namespace College_Appointment_System.Migrations
 
                     b.Property<DateTime>("EndDate")
                         .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsBooked")
+                        .HasColumnType("bit");
 
                     b.Property<Guid>("ProfessorId")
                         .HasColumnType("uniqueidentifier");

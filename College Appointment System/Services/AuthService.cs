@@ -69,6 +69,7 @@ namespace College_Appointment_System.Services
                 foreach(var roles in addUserRole.RoleId)
                 {
                     var userRole = new UserRole();
+                    userRole.Id = Guid.NewGuid();
                     userRole.RoleId = roles;
                     userRole.UserId = user.Id;
                     addRole.Add(userRole);

@@ -16,6 +16,8 @@ builder.Services.AddControllers();
 ///////////////: Services Start :///////////////
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IStudentService, StudentService>();
+builder.Services.AddScoped<IAppointmentService, AppointmentService>();
+builder.Services.AddScoped<IProfessorService, ProfessorService>();
 ///////////////: Servuces END :///////////////
 
 

@@ -1,4 +1,5 @@
 ﻿using College_Appointment_System.Models;
+using College_Appointment_System.Models.Request;
 
 namespace College_Appointment_System.Interfaces
 {
@@ -6,8 +7,6 @@ namespace College_Appointment_System.Interfaces
     {
         Task<IEnumerable<Professor>> GetProfessors();
         Task<Professor> AddProfessor (Professor professor);
-        Task<Availability> AddAvailability(Availability available);
-        
-
+        Task<bool> AddAvailability(AvailabilityRequest availableReq);
     }
 }

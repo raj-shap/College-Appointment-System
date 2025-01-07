@@ -6,5 +6,6 @@
         public Guid ProfessorId { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
+        public bool IsBooked { get; set; } = false;
     }
 }
