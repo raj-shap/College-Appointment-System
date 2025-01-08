@@ -1,5 +1,6 @@
 ﻿using College_Appointment_System.Interfaces;
 using College_Appointment_System.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -29,14 +30,14 @@ namespace College_Appointment_System.Controllers
             var addUser = _authService.AddUser(user);
             return addUser;
         }
-
+        [Authorize(Roles =("Admin"))]
         [HttpPost("AddRole")]
         public Role AddRole([FromBody] Role role)
         {
             var addRole = _authService.AddRole(role);
             return addRole;
         }
-
+        [Authorize(Roles = ("Admin"))]
         [HttpPost("AssignRole")]
         public bool AssignRoleToUser([FromBody] AddUserRole userRole)
         {

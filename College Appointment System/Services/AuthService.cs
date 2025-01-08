@@ -2,6 +2,7 @@
 using College_Appointment_System.Helpers;
 using College_Appointment_System.Interfaces;
 using College_Appointment_System.Models;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
@@ -46,6 +47,18 @@ namespace College_Appointment_System.Services
             try
             {
                 user.Id = Guid.NewGuid();
+                var role = _context.Roles.SingleOrDefault(r => r.Id == user.Role);
+                if(role == null)
+                {
+                    throw new Exception("Role Not Found");
+                }
+                var userRole = new UserRole
+                {
+                    Id = Guid.NewGuid(),
+                    UserId = user.Id,
+                    RoleId = user.Role,
+                };
+                _context.UserRoles.Add(userRole);
                 var addedUser = _context.Users.Add(user);
                 _context.SaveChanges();
                 return addedUser.Entity;
@@ -103,7 +116,7 @@ namespace College_Appointment_System.Services
                     var roles = _context.Roles.Where(r => roleId.Contains(r.Id)).ToList();
                     foreach (var role in roles)
                     {
-                        claims.Add(new Claim("Role", role.Name));
+                        claims.Add(new Claim(ClaimTypes.Role, role.Name));
                     }
                     var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));
                     var signIn = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);

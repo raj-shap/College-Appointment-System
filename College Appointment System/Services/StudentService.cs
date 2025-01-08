@@ -21,6 +21,24 @@ namespace College_Appointment_System.Services
             try
             {
                 student.Id = Guid.NewGuid();
+
+                var studentUser = new User
+                {
+                    Id = student.Id,
+                    Name = student.Name,
+                    UserName = student.UserName,
+                    Email = student.Email,
+                    Role = student.Role,
+                    Password = student.Password,
+                };
+                var userRole = new UserRole
+                {
+                    Id = Guid.NewGuid(),
+                    UserId = student.Id,
+                    RoleId = student.Role,
+                };
+                _context.Users.Add(studentUser);
+                _context.UserRoles.Add(userRole);
                 var std = _context.Students.Add(student);
                 _context.SaveChanges();
                 return std.Entity;

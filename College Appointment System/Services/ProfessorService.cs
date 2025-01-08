@@ -23,7 +23,7 @@ namespace College_Appointment_System.Services
             }
             try
             {
-                var professor = _context.Professors.SingleOrDefault(p => p.Id == available.ProfessorId);
+                var professor = _context.Users.SingleOrDefault(p => p.Id == available.ProfessorId);
                 
                 if (professor != null)
                 {
@@ -54,10 +54,6 @@ namespace College_Appointment_System.Services
                         {
                             throw new Exception ($"The Availability Date Time is overlaps with an existing availability Date Time. Requested{profAvailability.StartDate.ToString()} to {profAvailability.EndDate.ToString()}");
                         }
-                        var AvailabilityExist = await _context.Availability.Where(a => a.ProfessorId == available.ProfessorId).ToListAsync();
-                        foreach(var availabilitycheck in AvailabilityExist)
-                        {
-                        }
 
                         addavailable.Add(profAvailability);
                     }
@@ -85,6 +81,23 @@ namespace College_Appointment_System.Services
             try
             {
                 professor.Id = Guid.NewGuid();
+                var studentUser = new User
+                {
+                    Id = professor.Id,
+                    Name = professor.Name,
+                    UserName = professor.UserName,
+                    Email = professor.Email,
+                    Role = professor.Role,
+                    Password = professor.Password,
+                };
+                var userRole = new UserRole
+                {
+                    Id = Guid.NewGuid(),
+                    UserId = professor.Id,
+                    RoleId = professor.Role,
+                };
+                _context.Users.Add(studentUser);
+                _context.UserRoles.Add(userRole);
                 await _context.Professors.AddAsync(professor);
                 await _context.SaveChangesAsync();
                 //Console.WriteLine("\n\n\n\nProfessor Added Successfully...\n\n\n\n");

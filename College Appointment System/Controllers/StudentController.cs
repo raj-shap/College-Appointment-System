@@ -18,13 +18,13 @@ namespace College_Appointment_System.Controllers
             _studentService = studentService;
             _appointmentService = appointmentService;
         }
-        //[Authorize(Roles = ("Admin"))]
+        [Authorize(Roles = "Professor,Admin")]
         [HttpGet("GetStudents")]
         public List<Student> GetStudents()
         {
             return _studentService.GetAllStudents();
         }
-        //[Authorize(Roles =("User, Admin"))]
+        [Authorize(Roles ="Professor,Admin")]
         [HttpPost("AddStudent")]
         public Student AddStudent([FromBody]Student student)
         {
@@ -32,21 +32,22 @@ namespace College_Appointment_System.Controllers
             return addedStudent;
         }
 
-        [HttpPost]
+        [Authorize(Roles ="Student")]
+        [HttpPost("BookAppointment")]
         public IActionResult BookAppointment([FromBody] Appointment appointment)
         {
             var bookAppointment = _appointmentService.AddAppointment(appointment);
             return Ok(bookAppointment);
         }
-
-        [HttpGet("{professorId}")]
+        [Authorize(Roles = "Student,Admin")]
+        [HttpGet("{professorId}/AvailableAppointment")]
         public IActionResult GetAvailableAppointment(Guid professorId)
         {
             var GetEmployee = _appointmentService.GetNotBookedAvailabilities(professorId);
             return Ok(GetEmployee);
         }
-
-        [HttpGet]
+        [Authorize(Roles = "Student,Admin")]
+        [HttpGet("{StudentId}/BookedAppointment")]
         public IActionResult GetBookedAppointment(Guid StudentId)
         {
             var BookedAppointment = _appointmentService.GetAppointments(StudentId);

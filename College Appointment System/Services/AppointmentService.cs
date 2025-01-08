@@ -23,7 +23,7 @@ namespace College_Appointment_System.Services
             {
                 appointment.Id = Guid.NewGuid();
                 var professor = await _context.Professors.SingleOrDefaultAsync(p => p.Id == appointment.ProfessorId);
-                var student = await _context.Students.SingleOrDefaultAsync(s => s.Id == appointment.StudentId);
+                var student = await _context.Users.SingleOrDefaultAsync(s => s.Id == appointment.StudentId);
                 var availability = await _context.Availability.SingleOrDefaultAsync(a => a.Id == appointment.AvailabilityId);
                 if (professor == null || student == null || availability == null)
                 {

@@ -13,6 +13,7 @@ namespace College_Appointment_System.Context
         public DbSet<Professor> Professors { get; set; }
         public DbSet<Appointment> Appointments { get; set; }
         public DbSet<Availability> Availability { get; set; }
+        public DbSet<RefreshToken> RefreshTokens { get; set; }
 
     }
 }
