@@ -18,40 +18,54 @@ namespace College_Appointment_System.Controllers
             _studentService = studentService;
             _appointmentService = appointmentService;
         }
-        [Authorize(Roles = "Professor,Admin")]
+
         [HttpGet("GetStudents")]
-        public List<Student> GetStudents()
+        [Authorize(Roles = "Professor,Admin")]
+        public List<User> GetStudents()
         {
             return _studentService.GetAllStudents();
         }
-        [Authorize(Roles ="Professor,Admin")]
-        [HttpPost("AddStudent")]
-        public Student AddStudent([FromBody]Student student)
-        {
-            var addedStudent = _studentService.AddStudent(student);
-            return addedStudent;
-        }
+        
+        //[HttpPost("AddStudent")]
+        //[Authorize(Roles ="Professor,Admin")]
+        //public Student AddStudent([FromBody]Student student)
+        //{
+        //    var addedStudent = _studentService.AddStudent(student);
+        //    return addedStudent;
+        //}
 
-        [Authorize(Roles ="Student")]
         [HttpPost("BookAppointment")]
-        public IActionResult BookAppointment([FromBody] Appointment appointment)
+        [Authorize(Roles ="Student")]
+        public async Task<IActionResult> BookAppointment([FromBody] Appointment appointment)
         {
-            var bookAppointment = _appointmentService.AddAppointment(appointment);
+            var bookAppointment = await _appointmentService.AddAppointment(appointment);
             return Ok(bookAppointment);
         }
-        [Authorize(Roles = "Student,Admin")]
-        [HttpGet("{professorId}/AvailableAppointment")]
-        public IActionResult GetAvailableAppointment(Guid professorId)
+
+        //[HttpGet("{professorId}/AvailableAppointment")]
+        //[Authorize(Roles = "Student,Admin")]
+        //public async Task<IActionResult> GetAvailableAppointment(Guid professorId)
+        //{
+        //    var GetAvailable = await _appointmentService.GetNotBookedAvailabilities(professorId);
+        //    return Ok(GetAvailable);
+        //}
+
+        [HttpGet("{ProfessorId}/AvailableAppointment")]
+        [Authorize(Roles = "Admin,Student")]
+        public async Task<IActionResult> GetAvailableAppointment(Guid ProfessorId)
         {
-            var GetEmployee = _appointmentService.GetNotBookedAvailabilities(professorId);
-            return Ok(GetEmployee);
+            var availabilities = await _appointmentService.GetNotBookedAvailabilities(ProfessorId);
+            Console.WriteLine($"\n\n\n\n show available : \n {availabilities} \n\n\n\n");
+            return Ok(availabilities);
         }
-        [Authorize(Roles = "Student,Admin")]
+
         [HttpGet("{StudentId}/BookedAppointment")]
-        public IActionResult GetBookedAppointment(Guid StudentId)
+        [Authorize(Roles = "Student,Admin")]
+        public async Task<IActionResult> GetBookedAppointment(Guid StudentId)
         {
-            var BookedAppointment = _appointmentService.GetAppointments(StudentId);
+            var BookedAppointment = await _appointmentService.GetAppointments(StudentId);
             return Ok(BookedAppointment);
         }
+
     }
 }

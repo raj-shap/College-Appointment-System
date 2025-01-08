@@ -124,7 +124,7 @@ namespace College_Appointment_System.Services
                         _configuration["Jwt:Issuer"],
                         _configuration["Jwt:Audience"],
                         claims,
-                        expires: DateTime.UtcNow.AddMinutes(1),
+                        expires: DateTime.UtcNow.AddMinutes(10),
                         signingCredentials: signIn
                         );
                     var jwtToken = new JwtSecurityTokenHandler().WriteToken(token);

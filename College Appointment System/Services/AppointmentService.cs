@@ -22,7 +22,7 @@ namespace College_Appointment_System.Services
             try
             {
                 appointment.Id = Guid.NewGuid();
-                var professor = await _context.Professors.SingleOrDefaultAsync(p => p.Id == appointment.ProfessorId);
+                var professor = await _context.Users.SingleOrDefaultAsync(p => p.Id == appointment.ProfessorId);
                 var student = await _context.Users.SingleOrDefaultAsync(s => s.Id == appointment.StudentId);
                 var availability = await _context.Availability.SingleOrDefaultAsync(a => a.Id == appointment.AvailabilityId);
                 if (professor == null || student == null || availability == null)
@@ -50,20 +50,20 @@ namespace College_Appointment_System.Services
         {
             try
             {
-                var appointments = await _context.Appointments.ToListAsync();
-                var appointmentById = new List<Appointment>();
+                var appointments = await _context.Appointments.Where(a=>a.StudentId == StudentId).ToListAsync();
+                //var appointmentById = new List<Appointment>();
                 if(appointments == null)
                 {
                     throw new Exception("Data Not Found");
                 }
-                foreach(var appointment in appointments)
-                {
-                    if(appointment.StudentId == StudentId)
-                    {
-                        appointmentById.Add(appointment);
-                    }
-                }
-                return appointmentById;
+                //foreach(var appointment in appointments)
+                //{
+                //    if(appointment.StudentId == StudentId)
+                //    {
+                //        appointmentById.Add(appointment);
+                //    }
+                //}
+                return appointments;
             }
             catch(Exception ex)
             {
@@ -100,20 +100,20 @@ namespace College_Appointment_System.Services
         {
             try
             {
-                var availability = await _context.Availability.ToListAsync();
-                var availableAppointment = new List<Availability>();
+                var availability = await _context.Availability.Where(a => (a.ProfessorId == ProfessorId) && (a.IsBooked != true)).ToListAsync();
+                //var availableAppointment = new List<Availability>();
                 if(availability == null)
                 {
                     throw new Exception("Data Not Found");
                 }
-                foreach(var available in availability)
-                {
-                    if(available.IsBooked != true)
-                    {
-                        availableAppointment.Add(available);
-                    }
-                }
-                return availableAppointment;
+                //foreach(var available in availability)
+                //{
+                //    if(available.IsBooked != true)
+                //    {
+                //        availableAppointment.Add(available);
+                //    }
+                //}
+                return availability;
             }
             catch (Exception ex)
             {

@@ -20,36 +20,40 @@ namespace College_Appointment_System.Controllers
             _professorService = professorService;
             _appointmentService = appointmentService;
         }
-        [Authorize(Roles = "Admin")]
         [HttpGet("Professors")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> GetProfessors()
         {
             var professors = await _professorService.GetProfessors();
             return Ok(professors);
         }
-        [Authorize(Roles = "Admin,Professor")]
-        [HttpPost("AddProfessor")]
-        public async Task<IActionResult> AddProfessor([FromBody] Professor professor)
-        {
-            var addProfessor = await _professorService.AddProfessor(professor);
-            return Ok(addProfessor);
-        }
-        [Authorize(Roles = "Professor")]
+
+        //[Authorize(Roles = "Admin,Professor")]
+        //[HttpPost("AddProfessor")]
+        //public async Task<IActionResult> AddProfessor([FromBody] Professor professor)
+        //{
+        //    var addProfessor = await _professorService.AddProfessor(professor);
+        //    return Ok(addProfessor);
+        //}
+        
         [HttpPost("AddAvailability")]
+        [Authorize(Roles = "Professor")]
         public async Task<IActionResult> AddAvailability([FromBody] AvailabilityRequest availability)
         {
             var availabilityReq = await _professorService.AddAvailability(availability);
             return Ok(availabilityReq);
         }
-        [Authorize(Roles = "Admin,Professor")]
+
         [HttpGet("{ProfessorId}/Booked")]
+        [Authorize(Roles = "Admin,Professor")]
         public async Task<IActionResult> GetBookedAvailabilities(Guid ProfessorId)
         {
             var availabilities =await _appointmentService.GetBookedAvailabilities(ProfessorId);
             return Ok(availabilities);
         }
-        [Authorize(Roles = "Admin,Professor")]
+
         [HttpGet("{ProfessorId}/NotBooked")]
+        [Authorize(Roles = "Admin,Professor")]
         public async Task<IActionResult> GetNotBookedAvailabilities(Guid ProfessorId)
         {
             var availabilities = await _appointmentService.GetNotBookedAvailabilities(ProfessorId);

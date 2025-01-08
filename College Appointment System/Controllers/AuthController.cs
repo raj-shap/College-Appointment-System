@@ -30,15 +30,17 @@ namespace College_Appointment_System.Controllers
             var addUser = _authService.AddUser(user);
             return addUser;
         }
-        [Authorize(Roles =("Admin"))]
+        
         [HttpPost("AddRole")]
+        [Authorize(Roles =("Admin"))]
         public Role AddRole([FromBody] Role role)
         {
             var addRole = _authService.AddRole(role);
             return addRole;
         }
-        [Authorize(Roles = ("Admin"))]
+        
         [HttpPost("AssignRole")]
+        [Authorize(Roles = ("Admin"))]
         public bool AssignRoleToUser([FromBody] AddUserRole userRole)
         {
             var addedUserRole = _authService.AssignRoleToUser(userRole);
